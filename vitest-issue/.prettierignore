@@ -1,0 +1,16 @@
+# Ignore all Markdown files
+*.md
+
+.vscode
+__generated__
+coverage
+dist
+doc
+node_modules
+package.json
+package-lock.json
+pnpm-lock.yaml
+res
+rollout
+temp
+vendor

@@ -1,0 +1,15 @@
+{
+	"name": "example",
+	"type": "module",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite dev",
+		"preview": "vite build && vite preview"
+	},
+	"dependencies": {
+		"@types/node": "^24.1.0",
+		"prettier": "^3.6.2",
+		"rolldown-vite": "^7.0.12",
+		"tinymce": "^8.0.1"
+	}
+}

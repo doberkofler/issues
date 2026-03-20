@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"strict": true,
+		"paths": {
+			"@alias_root/*": ["./*"]
+		}
+	},
+	"compileOnSave": false,
+	"include": ["./**/*"],
+	"exclude": ["node_modules"]
+}

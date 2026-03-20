@@ -1,0 +1,22 @@
+{
+	"name": "test",
+	"type": "module",
+	"version": "0.0.0",
+	"scripts": {
+		"debug": "node --inspect-brk node_modules/vitest/dist/cli.js run --config=vitest.config.browser.ts",
+		"lint": "tsc --noEmit",
+		"test-api-browser": "node vitest.ts --browser",
+		"test-api-jsdom": "node vitest.ts --jsdom",
+		"test-config": "vitest run --config=vitest.config.browser.ts"
+	},
+	"devDependencies": {
+		"@types/debug": "4.1.12",
+		"@types/node": "24.3.3",
+		"@vitest/browser": "3.2.4",
+		"jsdom": "27.0.0",
+		"playwright": "1.55.0",
+		"prettier": "3.6.2",
+		"typescript": "5.9.2",
+		"vitest": "3.2.4"
+	}
+}

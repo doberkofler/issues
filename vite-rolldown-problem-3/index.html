@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rolldown Bug Reproduction</title>
+</head>
+<body>
+  <h1>Vite/Rolldown Bug Reproduction</h1>
+  <p>Please open the following pages and check the console to verify the chunk execution issue:</p>
+  <ul>
+    <li><a href="/entryA.html">Load Entry A (Should NOT log "CRITICAL BUG: Entry B side-effect was triggered!")</a></li>
+    <li><a href="/entryB.html">Load Entry B (Logs "CRITICAL BUG: Entry B side-effect was triggered!")</a></li>
+  </ul>
+</body>
+</html>

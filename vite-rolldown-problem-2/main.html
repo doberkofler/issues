@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Main Module</title>
+</head>
+<body>
+	<div id="app"></div>
+    <div id="error-display" style="color: red; font-weight: bold; padding: 1rem;"></div>
+    <script>
+        window.onerror = function(msg, url, line) {
+            document.getElementById('error-display').innerText = "CRASH DETECTED: " + msg + " at " + line;
+        };
+    </script>
+	<script type="module" src="src/globals.ts"></script>
+	<script type="module" src="src/main.ts"></script>
+</body>
+</html>

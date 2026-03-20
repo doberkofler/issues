@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Vite 8 / Rolldown Bug Reproduction</title>
+	<style>
+		body { font-family: sans-serif; padding: 2rem; max-width: 800px; margin: 0 auto; }
+		h1 { color: #c0392b; }
+		ul { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+		li { margin: 0; }
+		a { color: #3498db; text-decoration: none; padding: 0.75rem 1rem; 
+		    background: #ecf0f1; border-radius: 4px; display: block; text-align: center; }
+		a:hover { background: #3498db; color: white; }
+		.warning { background: #fff3cd; border: 1px solid #ffc107; 
+		           padding: 1rem; border-radius: 4px; margin: 1rem 0; }
+	</style>
+</head>
+<body>
+	<h1>🐛 Vite 8 / Rolldown Module Execution Order Bug</h1>
+	
+	<div class="warning">
+		<strong>Expected Behavior:</strong> TinyMCE should load without errors.<br>
+		<strong>Actual Behavior:</strong> Check console for <code>ReferenceError: tinymce is not defined</code>
+	</div>
+
+	<h2>Quick Test:</h2>
+    <ul>
+        <li><a href="main.html" style="background: #e74c3c; color: white;">🚀 GO TO MAIN REPRODUCTION (main.html)</a></li>
+    </ul>
+
+	<h2>Individual Modules (Share TinyMCE chunk):</h2>
+	<ul>
+		<li><a href="module1.html">Module 1</a></li>
+		<li><a href="module2.html">Module 2</a></li>
+		<li><a href="module3.html">Module 3</a></li>
+		<li><a href="module4.html">Module 4</a></li>
+		<li><a href="module5.html">Module 5</a></li>
+		<li><a href="module6.html">Module 6</a></li>
+		<li><a href="module7.html">Module 7</a></li>
+		<li><a href="module8.html">Module 8</a></li>
+		<li><a href="module9.html">Module 9</a></li>
+		<li><a href="module10.html">Module 10</a></li>
+	</ul>
+</body>
+</html>
