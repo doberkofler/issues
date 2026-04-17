@@ -1,4 +1,4 @@
 import "./b.css";
-import { shared } from "./shared";
+console.log("b");
 
-console.log("b", shared);
+void import("./dyn-b");

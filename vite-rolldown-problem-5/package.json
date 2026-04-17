@@ -4,7 +4,8 @@
 	"type": "module",
 	"scripts": {
 		"build": "vite build",
-		"clean": "rm -rf dist"
+		"clean": "rm -rf dist reports",
+		"repro": "node ./scripts/repro.mjs"
 	},
 	"devDependencies": {
 		"vite": "8.0.8"

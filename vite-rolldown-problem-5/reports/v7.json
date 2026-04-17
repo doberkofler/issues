@@ -1,0 +1,93 @@
+{
+  "orderedChunkKeys": [
+    "assets/a-D_2AunLE.js",
+    "assets/b-sY_ZoMrU.js",
+    "assets/c-CTp9319i.js",
+    "assets/preload-helper-BXl3LOEh.js",
+    "assets/dyn-b-D7205jQD.js",
+    "assets/shared-BP0xZ7vB.js",
+    "assets/dyn-c-BS7Ltlo9.js"
+  ],
+  "entries": [
+    {
+      "fileName": "assets/a-D_2AunLE.js",
+      "name": "a",
+      "imports": [
+        "assets/shared-BP0xZ7vB.js"
+      ],
+      "dynamicImports": []
+    },
+    {
+      "fileName": "assets/b-sY_ZoMrU.js",
+      "name": "b",
+      "imports": [
+        "assets/preload-helper-BXl3LOEh.js"
+      ],
+      "dynamicImports": [
+        "assets/dyn-b-D7205jQD.js"
+      ]
+    },
+    {
+      "fileName": "assets/c-CTp9319i.js",
+      "name": "c",
+      "imports": [
+        "assets/preload-helper-BXl3LOEh.js",
+        "assets/shared-BP0xZ7vB.js"
+      ],
+      "dynamicImports": [
+        "assets/dyn-c-BS7Ltlo9.js"
+      ]
+    }
+  ],
+  "warmedNonEntryChunks": [
+    "assets/preload-helper-BXl3LOEh.js",
+    "assets/dyn-b-D7205jQD.js",
+    "assets/shared-BP0xZ7vB.js",
+    "assets/dyn-c-BS7Ltlo9.js"
+  ],
+  "buggyCacheAfterWarmup": {
+    "assets/preload-helper-BXl3LOEh.js": [],
+    "assets/shared-BP0xZ7vB.js": [],
+    "assets/dyn-b-D7205jQD.js": [
+      "assets/shared-CFliEUOZ.css"
+    ],
+    "assets/dyn-c-BS7Ltlo9.js": [],
+    "assets/a-D_2AunLE.js": [],
+    "assets/b-sY_ZoMrU.js": [
+      "assets/shared-CFliEUOZ.css"
+    ],
+    "assets/c-CTp9319i.js": []
+  },
+  "buggyCssByEntry": {
+    "assets/a-D_2AunLE.js": [
+      "assets/a-BU8rHWE0.css"
+    ],
+    "assets/b-sY_ZoMrU.js": [
+      "assets/shared-CFliEUOZ.css",
+      "assets/b-CCv7Ig94.css"
+    ],
+    "assets/c-CTp9319i.js": [
+      "assets/c-DmuJlJci.css"
+    ]
+  },
+  "stableCssByEntry": {
+    "assets/a-D_2AunLE.js": [
+      "assets/shared-CFliEUOZ.css",
+      "assets/a-BU8rHWE0.css"
+    ],
+    "assets/b-sY_ZoMrU.js": [
+      "assets/shared-CFliEUOZ.css",
+      "assets/dyn-b-CjuV1CvT.css",
+      "assets/b-CCv7Ig94.css"
+    ],
+    "assets/c-CTp9319i.js": [
+      "assets/shared-CFliEUOZ.css",
+      "assets/dyn-c-BJt7cUh-.css",
+      "assets/c-DmuJlJci.css"
+    ]
+  },
+  "entriesMissingSharedCss": [
+    "a",
+    "c"
+  ]
+}
